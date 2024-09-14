@@ -16,11 +16,12 @@ class Duration
         $this->timeInMilliseconds = ($days * self::DAY_IN_MILLISECONDS) + ($hours * self::HOUR_IN_MILLISECONDS) + ($minutes * self::MINUTE_IN_MILLISECONDS) + ($seconds * self::SECOND_IN_MILLISECONDS) + $milliseconds;
     }
 
-    public function inMilliseconds() {
+    public function inMilliseconds(): float|int {
         return $this->timeInMilliseconds;
     }
 
-    public function inSeconds() {
+    public function inSeconds(): float|int
+    {
         return $this->timeInMilliseconds / self::SECOND_IN_MILLISECONDS;
     }
 
