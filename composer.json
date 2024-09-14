@@ -1,0 +1,36 @@
+{
+    "name": "xahmedtaha/duration",
+    "description": "A php helper function to express time durations and convert them easily.",
+    "keywords": [
+        "Ahmed Taha",
+        "php",
+        "duration",
+        "time"
+    ],
+    "homepage": "https://github.com/xahmedtaha/duration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Taha",
+            "email": "xahmedtaha930@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmedTaha\\Duration\\": "src/"
+        },
+        "files": ["src/Duration.php"]
+    },
+    "autoload-dev": {},
+    "scripts": {},
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
