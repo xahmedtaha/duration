@@ -1,7 +1,7 @@
 # Duration
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/xahmedtaha/paybridge.svg?style=flat-square)](https://packagist.org/packages/xahmedtaha/paybridge)
-[![Total Downloads](https://img.shields.io/packagist/dt/xahmedtaha/paybridge.svg?style=flat-square)](https://packagist.org/packages/xahmedtaha/paybridge)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/xahmedtaha/duration.svg?style=flat-square)](https://packagist.org/packages/xahmedtaha/duration)
+[![Total Downloads](https://img.shields.io/packagist/dt/xahmedtaha/duration.svg?style=flat-square)](https://packagist.org/packages/xahmedtaha/duration)
 
 
 A php helper function to express time durations and convert them easily.
